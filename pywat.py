@@ -18,7 +18,6 @@ for line in f.read().splitlines():
         numbers.append(line.strip())
 f.close()
 total_number = len(numbers)
-
 fw = open(r"C:\igswhatsapp_automation\log.txt", "a")
 
 
@@ -40,7 +39,7 @@ def default():
 
 
 def s_img():
-    delay= int(delay_time.get())
+    delay = int(delay_time.get())
 
     for number in numbers:
         number = number.strip()
@@ -48,7 +47,7 @@ def s_img():
             continue
         contact = '+91' + number
 
-        pywhatkit.sendwhats_image(contact, "C:\igswhatsapp_automation\IGS.jpg", caption,delay, True)
+        pywhatkit.sendwhats_image(contact, "C:\igswhatsapp_automation\IGS.jpg", caption, delay, True)
         fw.write('Sent Image successfully to {}.'.format(number))
         fw.write('\n')
     success()
@@ -62,7 +61,7 @@ delay = IntVar()
 window.title('IGS-WhatsApp-Automation')
 Label(window, text='WHATSAPP AUTOMATION', font=80,
       bg='black', fg='white').place(x=170, y=50)
-Label(window, text="Time delay in seconds : ",font=5, bg='black', fg='white').place(x=20, y=110)
+Label(window, text="Time delay in seconds : ", font=5, bg='black', fg='white').place(x=20, y=110)
 delay_time = Entry(window, textvariable=delay, width=15)
 delay_time.place(x=240, y=110)
 

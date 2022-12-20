@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="91fbb452-a9d8-41d3-8e2a-8573f42c3eb4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pywat.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/automator.py" beforeDir="false" afterPath="$PROJECT_DIR$/automator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/message.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/numbers.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pywat.py" beforeDir="false" afterPath="$PROJECT_DIR$/pywat.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,13 +38,16 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "ShowUsagesActions.previewPropertyKey": "true",
-    "last_opened_file_path": "D:/Projects/Intellecto Global Services/Wa-Auto-Script",
+    "last_opened_file_path": "D:/Projects/PythonProjects/LeetCode",
     "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Color Scheme Font",
     "settings.editor.splitter.proportion": "0.14383562"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\Intellecto Global Services\Wa-Auto-Script" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Projects\Intellecto Global Services\Wa-Auto-Script" />
     </key>
   </component>
