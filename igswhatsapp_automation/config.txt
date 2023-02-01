@@ -1,0 +1,2 @@
+[config]
+buffer_time = 10
